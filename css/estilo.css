@@ -1,0 +1,112 @@
+
+body{background-attachment: fixed;background-image:url(../img/fundo.jpg); background-position: center; background-repeat: no-repeat;}
+.estrelas input[type=radio]{
+	display: none;
+	width: 100px;
+}.estrelas label i.fa:before{
+	content: '\f005';
+	font-size: 60px;
+	color: white;
+}.estrelas  input[type=radio]:checked  ~ label i.fa:before{
+	color: rgba(255,255,255,0.4);
+}
+
+.per{
+	width: 100%;
+	max-width: 80%;
+	font-size: 16pt;
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    div{
+        font-size: 18px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    div{
+        font-size: 22px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    div{
+        font-size: 14px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    div{
+        font-size: 12px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    div{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .per{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .per{
+        font-size: 12px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .estrelas label i.fa:before{
+        font-size: 50px;
+    }
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .estrelas label i.fa:before{
+        font-size: 50px;
+    }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .estrelas label i.fa:before{
+        font-size: 70px;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .estrelas label i.fa:before{
+        font-size: 70px;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .estrelas label i.fa:before{
+        font-size: 50px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+    .estrelas label i.fa:before{
+        font-size: 50px;
+    }
+}
+
+#bt{background-color: #FF0015; color: white; font-weight: bold;}
+.tx{width: 100%; border-radius: 3px; background-color: rgba(255,255,255,0.4); height: 100px;}
+#area{max-width: 80%; }
+#vai{background-color: #FF0015; color: white;}
