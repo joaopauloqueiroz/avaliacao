@@ -1,3 +1,0 @@
-database: dados_psv
-senha: ps*Vidr0#JXP
-host: dados_psv.mysql.dbaas.com.br
